@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER shaneen31
 
-ENV NGINX_VERSION 1.12.2
+ENV NGINX_VERSION 1.17.10
 
 RUN	apk update		&&	\
 	apk add				\
